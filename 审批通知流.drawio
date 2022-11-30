@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T06:40:41.311Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="mesInecBw4UXmS_GH4hz" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-30T06:42:58.905Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ptfeDfnROPGte5RlHphW" version="20.5.1" type="github">
   <diagram name="Page-1" id="64c3da0e-402f-94eb-ee01-a36477274f13">
-    <mxGraphModel dx="1677" dy="1633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1935" dy="1757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="4" value="Principal ...&#xa;&#xa;WithNode{&#xa;account_id,&#xa;prev_node_id&#xa;}" style="whiteSpace=wrap;rounded=1;fillColor=#F2931E;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=14" parent="1" vertex="1">
           <mxGeometry x="530" y="110" width="140" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Principal ...&#xa;&#xa;OrNode{&#xa;account_id,&#xa;prev_node_id&#xa;}" style="whiteSpace=wrap;rounded=1;fillColor=#F2931E;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=14" parent="1" vertex="1">
+        <mxCell id="6" value="Principal ...&#xa;&#xa;OrNode{&#xa;account_id int,&#xa;rules []rule&#xa;childs []OrNode&#xa;}" style="whiteSpace=wrap;rounded=1;fillColor=#F2931E;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=14" parent="1" vertex="1">
           <mxGeometry x="1310" y="105" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="7" value="Terminator&#xa;&#xa;SimpleNode{&#xa;account_id int,&#xa;rules []rule&#xa;}" style="whiteSpace=wrap;rounded=1;fillColor=#F2931E;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=14" parent="1" vertex="1">
